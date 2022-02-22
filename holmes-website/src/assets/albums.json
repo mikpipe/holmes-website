@@ -1,0 +1,43 @@
+{
+    "Infinity": {
+        "cover": "../../assets/images/Covers/Infinity.png",
+        "tracks": [
+            "Voices",
+            "Fairy",
+            "Lonely",
+            "Whisper",
+            "Stolen Heart",
+            "Lifted",
+            "Infinity",
+            "Spirit",
+            "Sprite",
+            "Farewell"
+        ],
+        "links": {
+            "spotify": "https://open.spotify.com/album/2Ci2WuvMN479ALTzCNbCPt?si=xqVtiPQdQj2S3XmO7pQD_w",
+            "soundcloud": ""
+        }
+    },
+    "Soul": {
+        "cover": "../../assets/images/Covers/Soul.jpeg",
+        "tracks": [
+            "Just Fine",
+            "Never Gonna Fall In Love",
+            "I Need You",
+            "Shadow",
+            "Flames",
+            "In between",
+            "Lonely",
+            "Keys In Tokio",
+            "On My Way",
+            "Somebody Loves You",
+            "Nothing Left",
+            "Pages Of My Past",
+            "Wake Me Up"
+        ],
+        "links": {
+            "spotify": "",
+            "soundcloud": "https://soundcloud.com/holmes_dj/sets/soul?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+        }
+    }
+}
