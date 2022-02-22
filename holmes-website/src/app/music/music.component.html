@@ -1,1 +1,5 @@
-<p>music works!</p>
+<h2 class="d-flex justify-content-center">Musik</h2>
+
+<div *ngFor="let album of albums | keyvalue">
+    <app-album-entry [album]=album></app-album-entry>
+</div>
