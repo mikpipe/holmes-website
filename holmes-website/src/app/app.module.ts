@@ -11,6 +11,7 @@ import { MusicComponent } from './music/music.component';
 import { SoftwareComponent } from './software/software.component';
 import { ContactComponent } from './contact/contact.component';
 import { AlbumEntryComponent } from './music/album-entry/album-entry/album-entry.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AlbumEntryComponent } from './music/album-entry/album-entry/album-entry
     MusicComponent,
     SoftwareComponent,
     ContactComponent,
-    AlbumEntryComponent
+    AlbumEntryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
