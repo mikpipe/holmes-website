@@ -5,11 +5,17 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { MusicComponent } from './music/music.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SoftwareComponent } from './software/software.component';
 
 const routes: Routes = [
   {
     path: '',
+    redirectTo: '/home',
+    pathMatch: 'full',
+  },
+  {
+    path: 'home',
     component: HomeComponent,
   },
   {
@@ -31,6 +37,10 @@ const routes: Routes = [
   {
     path: 'imprint',
     component: ImprintComponent,
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent,
   },
 ];
 

@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AlbumEntryComponent } from './music/album-entry/album-entry/album-entry.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ImprintComponent } from './imprint/imprint.component';
     ContactComponent,
     AlbumEntryComponent,
     FooterComponent,
-    ImprintComponent
+    ImprintComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
