@@ -12,6 +12,7 @@ import { SoftwareComponent } from './software/software.component';
 import { ContactComponent } from './contact/contact.component';
 import { AlbumEntryComponent } from './music/album-entry/album-entry/album-entry.component';
 import { FooterComponent } from './footer/footer.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     SoftwareComponent,
     ContactComponent,
     AlbumEntryComponent,
-    FooterComponent
+    FooterComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
