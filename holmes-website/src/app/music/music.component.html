@@ -3,3 +3,7 @@
 <div *ngFor="let album of albums | keyvalue">
     <app-album-entry [album]=album></app-album-entry>
 </div>
+
+<div *ngFor="let track of tracks | keyvalue">
+    <app-track-entry [track]=track></app-track-entry>
+</div>

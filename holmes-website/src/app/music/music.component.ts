@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import albums from '../../assets/albums.json';
+import tracks from '../../assets/tracks.json';
 
 @Component({
   selector: 'app-music',
@@ -8,6 +9,7 @@ import albums from '../../assets/albums.json';
 })
 export class MusicComponent implements OnInit {
   albums = albums;
+  tracks = tracks;
 
   constructor() {}
 

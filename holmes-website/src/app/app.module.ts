@@ -14,6 +14,7 @@ import { AlbumEntryComponent } from './music/album-entry/album-entry/album-entry
 import { FooterComponent } from './footer/footer.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TrackEntryComponent } from './music/track-entry/tack-entry/track-entry.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +28,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AlbumEntryComponent,
     FooterComponent,
     ImprintComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TrackEntryComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
