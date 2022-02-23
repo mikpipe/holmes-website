@@ -1,9 +1,17 @@
 <h2 class="d-flex justify-content-center">Musik</h2>
 
-<div *ngFor="let album of albums | keyvalue">
-    <app-album-entry [album]=album></app-album-entry>
+<div>
+    <h4>Alben</h4>
+
+    <div *ngFor="let album of albums | keyvalue">
+        <app-album-entry [album]=album></app-album-entry>
+    </div>
 </div>
 
-<div *ngFor="let track of tracks | keyvalue">
-    <app-track-entry [track]=track></app-track-entry>
+<div>
+    <h4>Tracks</h4>
+
+    <div *ngFor="let track of tracks | keyvalue">
+        <app-track-entry [track]=track></app-track-entry>
+    </div>
 </div>
