@@ -20,7 +20,15 @@ export class AlbumEntryComponent implements OnInit {
     this.albumName = this.album.key;
     this.albumCover = this.album.value.cover;
     this.albumTracks = this.album.value.tracks;
+
     this.linkSpotify = this.album.value.links.spotify;
+    if (this.linkSpotify == '') {
+      this.linkSpotify = 'spotify';
+    }
+
     this.linkSoundcloud = this.album.value.links.soundcloud;
+    if (this.linkSoundcloud == '') {
+      this.linkSoundcloud = 'soundcloud';
+    }
   }
 }
