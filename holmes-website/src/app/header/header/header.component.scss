@@ -5,16 +5,19 @@ p {
 #header {
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: lightblue;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
 }
 
 #logo {
     padding-left: 2%;
     padding-right: 2%;
-    height: 80px;
+    height: 90px;
     width: 300px;
 }
 
-#menu {
-    align-items: center;
+#bar {
+    display: flex;
+    vertical-align: baseline;
 }
