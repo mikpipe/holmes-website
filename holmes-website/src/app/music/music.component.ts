@@ -10,8 +10,7 @@ import tracks from '../../assets/tracks.json';
 export class MusicComponent implements OnInit {
   albums = albums;
   tracks = tracks;
-
+  
   constructor() {}
-
   ngOnInit(): void {}
 }
