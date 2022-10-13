@@ -1,11 +1,21 @@
 <div class="row" id="header">
     <img src="../assets/images/logo.png" class="col-4" id="logo" routerLink="">
 
-    <div class="col-8 d-flex justify-content-start" id="menu">
-        <p routerLink="about">Über mich</p>
-        <p routerLink="music">Musik</p>
-        <p routerLink="software">Software</p>
-        <p routerLink="contact">Kontakt</p>
-        <p routerLink="imprint">Impressum</p>
-    </div>
+    <ul ngbNav #nav="ngbNav" class="nav-tabs col-8 d-flex justify-content-start">
+        <li ngbNavItem>
+          <a ngbNavLink routerLink="about">Über mich</a>
+        </li>
+        <li ngbNavItem>
+          <a ngbNavLink routerLink="music">Musik</a>
+        </li>
+        <li ngbNavItem>
+            <a ngbNavLink routerLink="software">Software</a>
+        </li>
+        <li ngbNavItem>
+            <a ngbNavLink routerLink="contact">Kontakt</a>
+        </li>
+        <li ngbNavItem>
+            <a ngbNavLink routerLink="imprint">Impressum</a>
+        </li>
+    </ul>
 </div>

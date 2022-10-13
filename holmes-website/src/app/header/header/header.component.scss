@@ -1,11 +1,16 @@
-p {
-    padding: 2%;
+li {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
 }
 
 #header {
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: lightblue;
+    background-color: gray;
 }
 
 #logo {
@@ -13,8 +18,4 @@ p {
     padding-right: 2%;
     height: 80px;
     width: 300px;
-}
-
-#menu {
-    align-items: center;
 }
