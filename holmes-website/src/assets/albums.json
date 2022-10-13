@@ -45,13 +45,13 @@
     "Remix Collection": {
         "cover": "../../assets/images/Covers/Albums/Remix_Collection.png",
         "tracks": [
-            "Believer (Holmes Remix)",
-            "Ocean Eyes (Holmes Remix)",
-            "Another Like You (Holmes Remix)",
-            "Complicated (Holmes Remix)",
-            "Someone You Loved (Holmes Remix)",
-            "Hunter (Holmes Remix)",
-            "Circles (Holmes Remix)"
+            "Believer",
+            "Ocean Eyes",
+            "Another Like You",
+            "Complicated",
+            "Someone You Loved",
+            "Hunter",
+            "Circles"
         ],
         "links": {
             "spotify": "",
