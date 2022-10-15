@@ -12,6 +12,31 @@ img {
     width: auto;
 }
 
-li {
-    width: 85%;
+ul{
+    align-items: center;
+    width: auto;
+}
+
+li{
+    width: 80%;
+}
+
+.infos{
+    margin: 0 auto;
+    align-content: center;
+    display: inline-block
+}
+
+.title{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.track-entry{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.links{
+    padding-top: 2%;
 }

@@ -1,17 +1,19 @@
-<div class="row" id="main">
-    <img src={{coverPath}} class="col-4">
+<div class="row">
+    <div class="col-4 infos">
+        <img src={{coverPath}}>
+        <h4 class="row title">{{title}}</h4>
+    </div>
+    
 
     <div class="col-8">
-        <h4 class="row">{{title}}</h4>
-
-        <ul class="row list-group" *ngFor="let track of tracks | keyvalue">
-            <li class="list-group-item">{{track.value}}</li>
+        <ul class="row list-group">
+            <li class="list-group-item track-entry" *ngFor="let track of tracks | keyvalue">{{track.value}}</li>
         </ul>
 
-        <p>
-            <a href={{linkSpotify}}>Spotify</a> |
-            <a href={{linkSoundcloud}}>Soundcloud</a> |
-            <a href={{linkYoutube}}>YouTube</a>
+        <p class="links">
+            <a href={{linkSpotify}} class="link-primary">Spotify</a> |
+            <a href={{linkSoundcloud}} class="link-primary">Soundcloud</a> |
+            <a href={{linkYoutube}} class="link-primary">YouTube</a>
         </p>
     </div>
 </div>

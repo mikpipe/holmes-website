@@ -1,20 +1,20 @@
-<div>
-    <h2 id="title">Musik</h2>
+<div class="main">
+    <h2 class="title">Musik</h2>
 
-    <div id="alben">
+    <div class="entry">
         <h3>Alben</h3>
 
-        <div *ngFor="let album of albums | keyvalue" id="albencontent">
+        <div *ngFor="let album of albums | keyvalue" class="albencontent">
             <app-album-entry [album]=album></app-album-entry>
         </div>
     </div>
 
     <br><br><br>
 
-    <div id="tracks">
+    <div class="entry">
         <h3>Tracks</h3>
 
-        <div *ngFor="let track of tracks | keyvalue" id="trackscontent">
+        <div *ngFor="let track of tracks | keyvalue" class="trackscontent">
             <app-track-entry [track]=track></app-track-entry>
         </div>
     </div>
