@@ -10,10 +10,16 @@
             <li class="list-group-item track-entry" *ngFor="let track of tracks | keyvalue">{{track.value}}</li>
         </ul>
 
-        <p class="links">
-            <a href={{linkSpotify}} class="link-primary">Spotify</a> |
-            <a href={{linkSoundcloud}} class="link-primary">Soundcloud</a> |
-            <a href={{linkYoutube}} class="link-primary">YouTube</a>
-        </p>
+        <div class="links">
+            <button type="button" class="btn btn-secondary" (click)="ToSpotify()">
+                Spotify
+            </button>
+            <button type="button" class="btn btn-secondary" (click)="ToSoundcloud()">
+                Soundcloud
+            </button>
+            <button type="button" class="btn btn-secondary" (click)="ToYoutube()">
+                YouTube
+            </button>
+        </div>
     </div>
 </div>
