@@ -22,20 +22,27 @@ export class TrackEntryComponent implements OnInit {
     this.coverPath = this.track.value.cover;
 
     this.linkSpotify = this.track.value.links.spotify;
-    if (this.linkSpotify == '') {
-      this.linkSpotify = 'spotify';
-    }
 
     this.linkSoundcloud = this.track.value.links.soundcloud;
-    if (this.linkSoundcloud == '') {
-      this.linkSoundcloud = 'soundcloud';
-    }
 
     this.linkYoutube = this.track.value.links.youtube;
-    if (this.linkYoutube == '') {
-      this.linkYoutube = 'youtube';
-    }
+  }
 
-    console.log(this.track);
+  ToSpotify(){
+    if (this.linkSpotify != ''){
+      window.location.href = this.linkSpotify;
+    }
+  }
+
+  ToSoundcloud(){
+    if (this.linkSoundcloud != ''){
+      window.location.href = this.linkSoundcloud;
+    }
+  }
+
+  ToYoutube(){
+    if (this.linkYoutube != ''){
+      window.location.href = this.linkYoutube;
+    }
   }
 }
